@@ -19,8 +19,9 @@ textarea {
 }
 
 body {
-    font-size: 1em;
+    font: 1em "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;;
     line-height: 1.4;
+    margin: 0;
 }
 
 /*
@@ -92,17 +93,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    -webkit-font-smoothing: antialiased;
-    color: #fff;
-    font: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-    margin: 0;
-}
-#globalNav{
+#globalNav {
     background: #1b1b1b;
 }
-#globalNav a{     
-    color: #fff!important; 
+.navContainer {
+    max-height: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 #globalNav nav {
     height: 34px;
@@ -117,7 +114,7 @@ body {
     border-left: 1px solid rgba(0, 0, 0, 0.347656);
 }
 #globalNav nav ul li {
-    font: bold "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+    font: bold"Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
     display: inline-block;
     float: left;
     position: relative;
@@ -129,11 +126,15 @@ body {
     border-left: 1px solid rgba(255, 255, 255, 0.0976562);
     border-right: 1px solid rgba(0, 0, 0, 0.347656);
 }
-.navContainer {
-    max-height: 1240px;
-    margin: 0 auto;
-    padding: 0 20px;
+#globalNav nav ul li a {
+    color: #e6e6e6;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
 }
+
 
 
 
